@@ -1,0 +1,568 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>MUNDO GRAFFITI</title>
+    <meta charset="utf-8"/>
+    
+    <!-- define a viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- inserindo css do Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="all" />
+	
+	<!-- inserindo css do Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all" />
+	
+	<link rel="stylesheet" href="css/css1.css" media="all"/>
+	
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" >
+
+$(document).ready(function(){
+$(".thumbnail").click(function(){
+var address= $(this).attr("src");
+$("#popup").fadeIn("slow");
+$("#lightbox").attr("src",address);
+});
+$("#close").click(function(){
+$("#popup").fadeOut("fast");
+});
+});
+</script>
+
+<style type="text/css">
+
+#popup{
+background:#000000;
+height:100%;
+width: 100%;
+position:fixed;
+top: 0;
+left: 0;
+display: none;
+}
+#center{
+border: 10px solid #121212;
+margin: 6% auto;
+width: 750px;
+}
+#close{
+float: right;
+position: absolute;
+top: 12%;
+}​
+
+
+</style>
+	
+	
+</head>
+    
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+	
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mundo Graffite</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#quemsomos">SAPARADACREW</a></li>
+<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GRAFFITEIROS<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#KOBRA">KOBRA</a></li>
+<li><a href="#BINHO">BINHO</a></li>
+<li><a href="#TOZ">TOZ</a></li>
+<li><a href="#OS GÊMEOS">OS GÊMEOS</a></li>
+          </ul>
+        </li>
+
+<li><a href="#DEPOIMENTOS">DEPOIMENTOS</a></li>
+<li><a href="galeria.html">GALERIA</a></li>
+<li><a href="#DÁ O PAPO">DÁ O PAPO</a></li>	
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+    <div class="divslider" style="background-color: black;">
+        <div class="container-slider">
+            <div class="col-xs-12 hidden-xs">
+                <div id="sliderprincipal" class="carousel slide" data-ride="carousel" data-interval="5000" style="width:100%;">
+                    
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#sliderprincipal" data-slide-to="0"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="1"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="2"></li>
+             <li data-target="#sliderprincipal" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner" role="listbox">
+
+                        <div class="item active">
+                            <img src="img/graf2.jpg" alt="asas graf" style="width: 100%;" />
+                        </div>
+
+                        <div class="item">
+                             <img src="img/toz1.jpg" alt="balões e meninas" style="width: 100%;" />
+                        </div>
+
+                        <div class="item">
+                             <img src="img/graf6.jpg" alt="graf" style="width: 100%;" />
+                        </div>
+                        <div class="item">
+                             <img src="img/ei.jpg" alt="albert graf" style="width: 100%;" />
+                        </div>
+                    </div>
+
+                          <a class="left carousel-control" href="#sliderprincipal" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+
+                          <a class="right carousel-control" href="#sliderprincipal" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                          </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="thumbnail">
+                <div>
+                    <i class= aria-hidden="true"></i>              
+                
+                </div>
+                
+                <div class="caption">
+                    <h3>GRAFFITIS 3D</h3>
+                    <p><h3>Aqui você encontra algumas dicas de como fazer graffites em 3D.</h3></p>
+                    <p><a href="https://arteurbanaworld.wordpress.com/tag/graffiti-3d/" target="_blank" class="btn btn-success" role="button">3D ART</a></p>
+                
+                
+                </div>
+            
+            </div>
+        
+        
+        </div>
+        
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="thumbnail">
+                <div>
+                    <i class= aria-hidden="true"></i>              
+                
+                </div>
+                
+                <div class="caption">
+                    <h3>STENCIL</h3>
+                    <p><h3>É uma técnica de pintura utilizada para aplicar um desenho sobre qualquer superfície, com o uso de tinta, sendo aerossol ou não, o stencil e feito com papel, plástico, metal ou acetato, onde tem uma boa durabilidade e seja fácil de cortar, para fazer a forma do desenho.</h3></p>
+                    <p><a href="https://arteurbanaworld.wordpress.com/category/stencil/" target="_blank" class="btn btn-success" role="button">ART STENCIL</a></p>
+                
+                
+                </div>
+            
+            </div>
+        
+        
+        </div>
+    
+                
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="thumbnail">
+                <div>
+                    <i class= aria-hidden="true"></i>              
+                
+                </div>
+                
+                <div class="caption">
+                    <h3>GRAFFITEIROS</h3>
+                    <p><h3>Contrate um graffiteiro para que ele possa demonstrar um pouco da sua arte!</h3></p>
+                    <p><a href="https://www.grafitando.com.br/" target="_blank" class="btn btn-success" role="button">CONTRATE</a></p>
+                
+                
+                </div>
+            
+            </div>
+        
+        
+        </div>
+    </div>		
+			
+<section id="quemsomos">
+		<div class="container">
+             <div class="row">
+			   <div class="col-xs-12">
+			     <div class="page-header">
+				    <h2>SaParadaCrew - SPK</h2>
+				</div>
+				
+				
+				<figure class="col-xs-12 col-sm-5 col-lg-5">
+				
+				     <img class="img-responsive" src="img/toz5.png" alt="graffiti1"/>
+				 </figure>
+				
+				 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+ <h3>Transcrevendo a linguagem sob a forma de throw-ups e painéis, decorando os muros das cidades e do mundo com a arte do graffiti. 
+     Sem esquecer da principal raiz da cultura, que é a lata de spray.
+     vândalos ou artistas? Não importa o rótulo, vivemos como sombras erguidas, fazendo arte e sustentando denúncias contra o sistema.</h3>
+     <h2>GRAFFITI: ARTE DAS RUAS.</h2> <h3>UMA CULTURA, UMA ARTE, E ESSAS MANIFETAÇÕES NÃO OBEDECEM REGRAS.</h3> 
+
+        </div>
+		</div>
+</div>
+</section>		
+			
+
+
+<section id="Mais sobre o GRAFFITI">
+		<div class="container">
+             <div class="row">
+			   <div class="col-xs-12">
+			     <div class="page-header">
+				    <h2>Mais sobre o GRAFFITI</h2>
+				</div>
+				
+				
+			<figure class="col-xs-12 col-sm-5 col-lg-5">
+				
+				     <img class="img-responsive" src="img/binho2.jpg" alt="Coruja graf"/>
+			</figure>
+				
+				 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+ <h2>O GRAFFITI nasce naturalmente.</h2> 
+     <h3>Pintura, comunicação visual, uma cultura quase um idioma, fazendo dessa arte uma sociedade alternativa. 
+	 Cada um faz o que quer, pinta aonde e com o que quiser, até mesmo se não puder.</h3>  
+			</div>
+		</div>
+</div>
+</section>		
+
+<section id="KOBRA">
+		<div class="container">
+             <div class="row">
+			   <div class="col-xs-12">
+			     <div class="page-header">
+				   <b><h2>KOBRA</h2></b>
+				</div>
+				
+	<figure class="col-xs-12 col-sm-5 col-lg-5">
+				
+				     <img class="img-responsive" src="img/kobra3.jpg" alt="graf beijo kobra"/>
+				 </figure>
+				
+				 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+<h2>Um dos artistas brasileiros mais conhecidos quando o assunto é arte de rua é o Eduardo <b>"KOBRA"</b>, Da periferia de São Paulo para o mundo. 
+Nascido em 1975 no jardim Martinica, bairro pobre da zona sul paulistana, ele detém o recode de maior muro graffitado do mundo - Com ETNIAS, no RJ, Espalhados por arranha-céus e pontos bem inusitados, os murais super coloridos do artista chamam a atenção de qualquer um. 
+Talvez um dos trabalhos mais famosos do brasileiro seja "O Beijo", em Nova York, que retrata a famosa cena em que um marinheiro e uma enfermeira se beijam para celebrar o final da Segunda Guerra Mundial.</h2>
+			</div>
+		</div>
+</div>
+</section>		
+<section id="BINHO">
+		<div class="container">
+             <div class="row">
+			   <div class="col-xs-12">
+			     <div class="page-header">
+				   <b><h2>BINHO</h2></b>
+				</div>
+				
+				
+				<figure class="col-xs-12 col-sm-5 col-lg-5">
+				
+				     <img class="img-responsive" src="img/binho3.jpg" alt="carpa binho"/>
+				 </figure>
+				
+				 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+<h2><b>BINHO</b> Ribeiro faz graffiti desde 1984, pioneiro do movimento no Brasil. Hoje é um dos mais reconhecidos graffiteiros do país não apenas pelo trabalho consistente que nunca parou de fazer nas ruas, mas também pela criação em telas e grandes projetos envolvendo a <b>STREET ART!</b> 
+Um dos fundadores do <font color ="#FF4500"><b>MAAU - Museu Aberto de Arte Urbana de São Paulo!</b></font></h2> 
+			</div>
+		</div>
+</div>
+</section>	
+		<section id="TOZ">
+		<div class="container">
+             <div class="row">
+			   <div class="col-xs-12">
+			     <div class="page-header">
+				    <b><h2>TOZ</h2></b>
+				</div>
+				
+				
+				<figure class="col-xs-12 col-sm-5 col-lg-5">
+				
+				     <img class="img-responsive" src="img/toz4.jpeg" alt="shimui"/>
+				 </figure>
+				
+				 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+<h2>Tomaz Viana, mais conhecido como <b>TOZ</b>, nasceu em Salvador, em 1976. 
+Formado em Arte e Design, faz parte do coletivo carioca de grafite Fleshbeck Crew e grafita há mais de dez anos.
+inventou uma família de personagens misturando referências quase universais do grafite – a animação e os mangás japoneses – com seu mundo particular. 
+Toz já criou diversos personagens como Shimu, Bebê Idoso e Nina, boneca com traços orientais e mistura de influências do universo feminino, principalmente de sua sobrinha.
+No dia a dia de Toz, todo material serve e tudo é permitido. 
+Em sua casa usa papel, papelão, caneta posca, tinta acrílica, tela, jornal, foto, colagem, massinha e computador.</h2> 
+			
+			</div>
+		</div>
+</div>
+</section>			
+			
+		<section id="OS GÊMEOS">
+		<div class="container">
+             <div class="row">
+			   <div class="col-xs-12">
+			     <div class="page-header">
+				    <h2>OS GÊMEOS</h2>
+				</div>
+								
+				<figure class="col-xs-12 col-sm-5 col-lg-5">
+				
+				     <img class="img-responsive" src="img/gem2.jpeg" alt="kbça gemêos"/>
+				 </figure>
+				
+				 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+<h2>Nascidos em São Paulo, <b>OS GÊMEOS</b>, como são conhecidos, são considerados uns dos melhores grafiteiros do Mundo! Gustavo e Otávio Pandolfo, sempre trabalharam juntos. desenvolveram um modo distinto de brincar e se comunicar através da arte. 
+Exploravam com dedicação e cuidado as diversas técnicas de pintura, desenho e escultura, e tinham as ruas como seu lugar de estudo.  
+Seus trabalhos estão espalhados pelo mundo! Ponto para o Brasil!</h2>
+			
+			
+			</div>
+		</div>
+</div>
+</section>
+	  
+	<section id="GALERIA">
+<div class="container">
+		  <div class="row">
+		      <div class="col-xs-12">
+			      <div class="page-header">
+				     <h2>GALERIA</h2>
+			</div>
+			<div>
+		<img src="img/art.jpg" class="thumbnail" width="120" style="float:left;"/>
+		<img src="img/bat1.jpg" class="thumbnail" width="120" style="float:left;"/>
+		<img src="img/bat2.jpg" class="thumbnail" width="120" style="float:left;"/>
+		<img src="img/binho4.jpg" class="thumbnail" width="120" style="float:left;"/>
+		<img src="img/kobra2.jpg" class="thumbnail" width="120" style="float:left;"/>
+		<img src="img/graf5.jpeg" class="thumbnail" width="120" style="float:left;"/>
+		<img src="img/toz6.jpg" class="thumbnail" width="120" style="float:left;"/>
+		<img src="img/flesh2.jpg" class="thumbnail" width="120" style="float:left;"/>
+	</div>
+		</div>
+	</div>
+</div>	
+
+
+
+	</section>
+				<section id="DEPOIMENTOS">
+		<div class="container">
+             <div class="row">
+			   <div class="col-xs-12">
+			     <div class="page-header">
+				    <h2>DEPOIMENTOS</h2>
+				</div>
+				
+				<div class="container">
+				    <div class="row">
+					  <div class="col-xs-12 col-sm-4 col-md-3">
+				          
+						  <div class="thumbnail" style="background-color:#eee;">
+						  <img src="img/kobra1.jpg"class="img-thumbnail" alt="kobra art"/>
+				
+				             <div class="caption">
+							   <p style="font-style:oblique;">
+							   "KOBRA, Graffitou na rua Oscar Freire em SP Albert Einstein em uma bicicleta em um momento em que os debates sobre a inserção das bicicletas da rede de mobilidade urbana se disseminavam!" 
+							   </p>
+				</div>
+
+                        </div>
+                       </div>
+
+<div class="col-xs-12 col-sm-4 col-md-3">
+				          
+						  <div class="thumbnail" style="background-color:#eee;">
+						  <img src="img/gem3.jpeg"class="img-thumbnail" alt="garoto ninja"/>
+				
+				             <div class="caption">
+							   <p style="font-style:oblique;">
+							   "Os GÊMEOS graffitam o famoso menino ninja gigante escondido".
+							   </p>
+				</div>
+
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-3">
+				          
+						  <div class="thumbnail" style="background-color:#eee;">
+						  <img src="img/graf1.jpg"class="img-thumbnail" alt="leão no muro"/>
+				
+				             <div class="caption">
+							   <p style="font-style:oblique;">
+							   "Graffiti lindo feito por vários graffiteiros brasileiros no beco do batman em SP!"
+							   </p>
+				</div>
+
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-3">
+				          
+						  <div class="thumbnail" style="background-color:#eee;">
+						  <img src="img/flesh5.jpg"class="img-thumbnail" alt="flesh beck em ação"/>
+				
+				             <div class="caption">
+							   <p style="font-style:oblique;">
+							   "Foram pioneiros do movimento de grafite no Rio, e até hoje fazem grande sucesso, sendo muito respeitados na área e no qual TOZ faz parte."
+							   </p>
+				</div>
+
+</div>
+</div>
+</div>
+</div>
+
+			</div>
+		</div>
+</div>
+</section>		
+
+	<section id="DÁ O PAPO">
+	     <div class="container">
+		    <div class="row">
+			    <div class="col-xs-12">
+				     <div class="page-header">
+					     <h2>DÁ O PAPO</h2>
+					   </div>
+					   
+				       <div class="col-xs-12">
+					       <form class="form-horizontal">
+						       <div class="form-group has-info">
+							       <label for="nome" class="col-xs-2 control-label">
+								   Nome Completo:
+								   </label>
+								   <div class="col-xs-10">
+								       <input type="text" class="form-control" id="nome"/>
+									   </div>
+									</div>
+
+                                <p>&nbsp;</p>									
+												 
+<div class="form-group has-info">
+							       <label for="nome" class="col-xs-2 control-label">
+								   E-mail:
+								   </label>
+								   <div class="col-xs-10">
+								       <input type="text" class="form-control" id="email"/>
+									   </div>
+									</div>
+
+                                <p>&nbsp;</p>												
+
+    <div class="form-group has-info">
+					    <label for=" Assunto" class="col-xs-2 control-label">
+						    Assunto:
+					    </label>
+						<div class="col-xs-10">
+						   <select class="form-control" id="assunto">
+						      <option></option>
+							  <option>Elogio</option>
+							  <option>Idéia</option>
+							  <option>Outros assuntos</option>
+						   </select>
+					  
+					     </div>
+					  </div>
+					  
+					  <p>&nbsp;</p>
+					
+				      <div class="form-group">
+					     <label for="nome" class="col-xs-2 control-label">
+						 Você graffita? ou já é artista?
+					    </label>
+						 <div class="col-xs-10 radio">
+						</label>
+						   <input type="radio" name="Cliente" id="id1" value="Sim"/>
+					       Sim
+						   </label>
+						   
+						   
+						   <label>
+						      <input type="radio" name="Cliente" id="id2" value="Não">Não
+							</label>
+						</div>
+					</div>
+							
+							<p>&nbsp;</p>
+							<div class="form-group has-info">
+							       <label for="Mensagem" class="col-xs-2 control-label">
+								  Mensagem:
+								   </label>
+								   
+								  <div class="col-xs-10">
+								       <textarea class="form-control" id="mensagem" rows="8" style="resize:none;"></textarea>
+									   </div>
+									</div>
+
+                                <p>&nbsp;</p>	
+								
+								<div class="form-group">
+								     <div class="col-xs-2-offset-2 col-xs-2">
+									        <button type="button" class="btn btn-outline-success">
+											           Enviar Formulário
+													   </button>
+													   </div>
+													   
+												</div class="col-xs-2">
+												<button type="reset" class="btn btn-sucess">
+												        Limpar
+                                                        </button>														
+						  </div>
+						         </div>
+						  </form>
+	                   </div>			  
+				  </div>	 
+			</div>
+		</div>
+	</section>	
+
+<footer>
+  <div class="row">
+    <div class="col-xs-12">
+           <strong>SAPARADACREW SPK.la</strong><br/>
+		   Rua Silva Teles, 110 - Tijuca - Andaraí - Vila Isabel - Grajaú<br/>  
+		   Rio de Janeiro, RJ 021<br/>
+		   <b>Tel.:</b> 0800-0000<br/>
+		   <b>E-mail:</b> Saparadakrew@gmail.com
+		  
+      </div>
+   </div>
+	<div id="footer">
+	  <a href="https://pt-br.facebook.com/"><img src="img/faceazul.png" /></a>
+<a href="https://twitter.com/login?lang=pt"><img border="0" src="img/tweetama.png" /></a>               
+<a href="https://www.instagram.com/"><img border="0" src="img/instavc.png" /></a>
+<a href="https://www.google.com/"><img border="0" src="img/googlelar.png" /></a>
+<a href="https://br.pinterest.com/"><img border="0" src="img/pintrox.png" /></a>
+        </div>
+	  
+	  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	
+</body>
+</html>
